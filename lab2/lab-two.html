@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Lab 2</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;4
+    0;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;4
+    0;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        header {
+            background-color: #111;
+            color: white;
+        }
+
+        footer {
+            background-color: #111;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: wheat;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            padding: 0;
+        }
+
+        ul li {
+            margin-right: 20px;
+        }
+
+        ul a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+        }
+
+        ul a:hover{
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        figure {
+            text-align: center;
+        }
+
+        #our-services {
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        #our-services article {
+            border: 1px solid #888;
+        }
+
+        h1,
+        h4,
+        p {
+            font-size: 14px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>
+                Welcome to Software Design Website
+            </h1>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <figure>
+        <figcaption>
+            <h4>About us</h4>
+        </figcaption>
+        <figcaption><p>We are a company dedicated to providing excellent service to our customers.</p></figcaption>
+        <img src="a.jpg"  width="600px" height="400px"/>
+    </figure>
+
+
+    <h4 style="text-align: center;">Our Services</h4>
+    <section id="our-services">
+        <article>
+            <h4>Web Development</h4>
+            <p>We specialize in creating reponsive and user-friendly websites.</p>
+            <figure>
+                <img src="b.jpg" width="600px" height="400px" />
+            </figure>
+        </article>
+
+        <article>
+            <figure>
+                <figcaption>
+                    <h4>Graphic Design</h4>
+                </figcaption>
+                <figcaption>
+                    <p>Our talented designers can bring your ideas to life with stunning visuals</p>
+                </figcaption>
+                <img src="c.jpg" width="600px" height="400px" />
+            </figure>
+        </article>
+    </section>
+
+
+
+    <footer>
+        <p>
+            &copy; 2024 The Ngobe Company, All Rights Reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
